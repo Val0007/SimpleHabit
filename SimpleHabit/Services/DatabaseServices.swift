@@ -10,7 +10,7 @@ import CloudKit
 
 struct DatabaseServices {
     
-    private let database  = CKContainer(identifier: "iCloud.SimpleHabit").privateCloudDatabase
+    private let database  = CKContainer(identifier: "").privateCloudDatabase
     
     static let shared = DatabaseServices()
     
